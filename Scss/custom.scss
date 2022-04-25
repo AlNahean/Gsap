@@ -1,0 +1,20 @@
+:root {
+  //   --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-body-font-family: "Open Sans", sans-serif;
+}
+h1 {
+  //   font-family: "Inter", sans-serif;
+  //   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  //   font-size: calc(1.675rem + 1.5vw);
+  //   font-weight: 700;
+  //   color: white;
+}
+.gold-bg {
+  background-color: #ffc727 !important;
+  color: white;
+  text-transform: capitalize !important;
+}
+.section-hd {
+  color: #7c15e8 !important;
+}

@@ -1,0 +1,17 @@
+:root {
+  --bs-body-font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.gold-bg {
+  background-color: #ffc727 !important;
+  color: white;
+  text-transform: capitalize !important;
+}
+
+.section-hd {
+  color: #7c15e8 !important;
+}

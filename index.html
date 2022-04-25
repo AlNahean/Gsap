@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+
+    <link rel="stylesheet" href="./Css/base.css" />
+
+    <!-- cdn font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link
+        href="./node_modules/font-awesome/web"
+        rel="stylesheet"
+        type="text/css"
+        /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class=""
+    data-bs-spy="scroll"
+    data-bs-target="navScrollSpy"
+    style="position: relative"
+  >
+    <!-- <div class="container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="750" height="750" viewBox="0 0 750 750">
+            <g id="Group_1" data-name="Group 1" transform="translate(-556 -152)">
+              <circle id="Ellipse_1" data-name="Ellipse 1" cx="375" cy="375" r="375" transform="translate(556 152)" fill="#49c5c5"/>
+              <circle id="Ellipse_2" data-name="Ellipse 2" cx="154" cy="154" r="154" transform="translate(784 373)" fill="#fff"/>
+            </g>
+          </svg>
+          
+    </div>
+
+    
+
+    <svg width="572" height="572" viewBox="0 0 572 572" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M572 286C572 443.953 443.953 572 286 572C128.047 572 0 443.953 0 286C0 128.047 128.047 0 286 0C443.953 0 572 128.047 572 286ZM143.164 286C143.164 364.886 207.114 428.836 286 428.836C364.886 428.836 428.836 364.886 428.836 286C428.836 207.114 364.886 143.164 286 143.164C207.114 143.164 143.164 207.114 143.164 286Z" fill="#1BDEEB" fill-opacity="0.39"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M286.5 521C416.563 521 522 415.563 522 285.5C522 155.437 416.563 50 286.5 50C156.437 50 51 155.437 51 285.5C51 415.563 156.437 521 286.5 521ZM286 403C350.617 403 403 350.617 403 286C403 221.383 350.617 169 286 169C221.383 169 169 221.383 169 286C169 350.617 221.383 403 286 403Z" fill="#1BDEEB"/>
+    </svg> -->
+    <!-- Nav Section -->
+
+    <section class="container-fluid nav-container" style="max-width: 100vw">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+        id="navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler hidden-lg-up"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse ddd" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0" id="navScrollSpy">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Our services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Support</a>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary rounded-pill my-1 my-sm-0">
+              <a class="nav-link" href="#contact">Contact</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- /* Hero Section */ -->
+    <section class="hero-container center" id="home">
+      <div class="hero-wrapper">
+        <div class="container center h-100 w-100">
+          <div class="row hero-row">
+            <div class="col-12 col-md-6 hero-left">
+              <h1 class="mb-4" style="font-size: 2.8rem; color: white">
+                <div class="w-100">Creative</div>
+                <div class="w-100">Design Agency</div>
+              </h1>
+              <!-- <h1 class="w-75">Creative</h1>
+            <h1 class="w-75 mb-3">Design Agency</h1> -->
+              <p class="w-75 mb-4">
+                <span style="color: white"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet, reiciendis?</span
+                >
+              </p>
+
+              <div>
+                <button
+                  class="btn btn-lg btn-primary rounded-pill hero-btn"
+                  style="
+                    background-color: #00dadc;
+                    color: black;
+                    text-transform: capitalize;
+                  "
+                >
+                  Learn More
+                </button>
+              </div>
+
+              <div class="hero-left-circle-gsap">
+                <svg
+                  class="hero-left-circle"
+                  width="572"
+                  height="572"
+                  viewBox="0 0 572 572"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572 286C572 443.953 443.953 572 286 572C128.047 572 0 443.953 0 286C0 128.047 128.047 0 286 0C443.953 0 572 128.047 572 286ZM143.164 286C143.164 364.886 207.114 428.836 286 428.836C364.886 428.836 428.836 364.886 428.836 286C428.836 207.114 364.886 143.164 286 143.164C207.114 143.164 143.164 207.114 143.164 286Z"
+                    fill="#6f34df"
+                    fill-opacity="0.39"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M286.5 521C416.563 521 522 415.563 522 285.5C522 155.437 416.563 50 286.5 50C156.437 50 51 155.437 51 285.5C51 415.563 156.437 521 286.5 521ZM286 403C350.617 403 403 350.617 403 286C403 221.383 350.617 169 286 169C221.383 169 169 221.383 169 286C169 350.617 221.383 403 286 403Z"
+                    fill="#7840e0"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 hero-right">
+              <img
+                src="./assets/pexels-photo-3182739.jpeg"
+                alt=""
+                srcset=""
+                class="hero-img w-100 h-auto"
+              />
+              <svg
+                width="1736"
+                height="1736"
+                viewBox="0 0 1736 1736"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="hero-right-circle-2"
+              >
+                <path
+                  d="M1736 868C1736 1347.38 1347.38 1736 868 1736C388.617 1736 0 1347.38 0 868C0 388.617 388.617 0 868 0C1347.38 0 1736 388.617 1736 868Z"
+                  fill="#00DADC"
+                  fill-opacity="0.31"
+                />
+              </svg>
+
+              <svg
+                width="2213"
+                height="2213"
+                viewBox="0 0 2213 2213"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="hero-right-circle"
+              >
+                <path
+                  d="M2213 1106.5C2213 1717.6 1717.6 2213 1106.5 2213C495.397 2213 0 1717.6 0 1106.5C0 495.397 495.397 0 1106.5 0C1717.6 0 2213 495.397 2213 1106.5ZM720.894 1106.5C720.894 1319.46 893.535 1492.11 1106.5 1492.11C1319.46 1492.11 1492.11 1319.46 1492.11 1106.5C1492.11 893.535 1319.46 720.894 1106.5 720.894C893.535 720.894 720.894 893.535 720.894 1106.5Z"
+                  fill="#ffc727"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shape 1 -->
+      <div class="custom-shape-divider-bottom-1650776198">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+        <!-- <svg
+          width="5672"
+          height="1344"
+          viewBox="0 0 5672 1344"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="shape-fill"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4667.17 933.057L4664 936L0 1344H5672V0L5670.06 1.79974C5638.08 477.454 5213.81 864.117 4667.17 933.057Z"
+            fill="#C4C4C4"
+          />
+        </svg> -->
+      </div>
+    </section>
+    <!-- About Section -->
+
+    <section class="about-container center" id="about">
+      <div class="about-wrapper">
+        <div class="container center h-100 w-100 about-wrapper">
+          <div class="row w-100 h-100 about-row">
+            <div class="col-12 col-md-6 center about-left">
+              <img
+                src="./assets/Untitled-1.png"
+                alt=""
+                srcset=""
+                class="h-50 ggggg"
+              />
+              <svg
+                class="about-left-circle-1"
+                width="572"
+                height="572"
+                viewBox="0 0 572 572"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- <path
+                  d="M572 286C572 443.953 443.953 572 286 572C128.047 572 0 443.953 0 286C0 128.047 128.047 0 286 0C443.953 0 572 128.047 572 286ZM143.164 286C143.164 364.886 207.114 428.836 286 428.836C364.886 428.836 428.836 364.886 428.836 286C428.836 207.114 364.886 143.164 286 143.164C207.114 143.164 143.164 207.114 143.164 286Z"
+                  fill="#f4f5fb"
+                  fill-opacity="0.39"
+                /> -->
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M286.5 521C416.563 521 522 415.563 522 285.5C522 155.437 416.563 50 286.5 50C156.437 50 51 155.437 51 285.5C51 415.563 156.437 521 286.5 521ZM286 403C350.617 403 403 350.617 403 286C403 221.383 350.617 169 286 169C221.383 169 169 221.383 169 286C169 350.617 221.383 403 286 403Z"
+                  fill="#f4f5fb"
+                />
+              </svg>
+              <!-- Circle 2 -->
+
+              <svg
+                width="2213"
+                height="2213"
+                viewBox="0 0 2213 2213"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="about-left-circle-2"
+              >
+                <path
+                  d="M2213 1106.5C2213 1717.6 1717.6 2213 1106.5 2213C495.397 2213 0 1717.6 0 1106.5C0 495.397 495.397 0 1106.5 0C1717.6 0 2213 495.397 2213 1106.5ZM720.894 1106.5C720.894 1319.46 893.535 1492.11 1106.5 1492.11C1319.46 1492.11 1492.11 1319.46 1492.11 1106.5C1492.11 893.535 1319.46 720.894 1106.5 720.894C893.535 720.894 720.894 893.535 720.894 1106.5Z"
+                  fill="#ffc727"
+                />
+              </svg>
+
+              <!-- Circle 3 -->
+              <svg
+                class="about-left-circle-3"
+                width="3177"
+                height="2958"
+                viewBox="0 0 3177 2958"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="1698"
+                  cy="1479"
+                  r="1474"
+                  stroke="#2538E0"
+                  stroke-width="10"
+                />
+                <ellipse
+                  cx="218.999"
+                  cy="1479"
+                  rx="198"
+                  ry="203"
+                  fill="#E2709D"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M165.237 1263.01C115.913 1276.64 86.8501 1295.39 52.0116 1336.04C-38.2453 1441.39 -4.51232 1615.08 118.868 1680.3C205.901 1726.31 310.692 1707.04 377.322 1632.78C419.311 1585.97 436.163 1542.75 436.574 1480.79C437.297 1371.16 366.338 1283.17 258.215 1259.63C212.895 1249.76 213.278 1249.75 165.237 1263.01ZM306.71 1314.22L343.469 1334.77L319.622 1355.76C297.504 1375.22 250.512 1400.82 246.359 1395.67C237.309 1384.44 185.923 1295.89 185.923 1291.52C185.923 1278.34 271.24 1294.38 306.71 1314.22ZM166.016 1351.62C206.949 1417.03 207.453 1414.64 150.553 1424.67C98.8976 1433.77 37.1011 1436.42 37.1011 1429.53C37.1011 1422.46 64.6757 1371.96 77.8358 1354.93C89.8053 1339.45 128.265 1309.77 136.316 1309.8C138.265 1309.82 151.63 1328.63 166.016 1351.62ZM386.499 1398.83C393.522 1413.38 401.041 1436.46 403.196 1450.12L407.122 1474.95L362.071 1468.61C337.296 1465.11 308.829 1464.1 298.808 1466.36C284.436 1469.58 278.979 1466.84 272.998 1453.35C266.053 1437.69 267.988 1434.84 295.917 1419.62C312.698 1410.47 333.689 1395.05 342.576 1385.33C362.794 1363.21 370.434 1365.57 386.499 1398.83ZM230.648 1465.27C233.1 1471.84 221.938 1481.11 197.758 1492.57C176.802 1502.5 142.502 1529.26 117.529 1555.19C85.3974 1588.53 72.0884 1598.13 67.0214 1591.59C52.5998 1573.01 38.9011 1537.88 34.4577 1508.09L29.8443 1477.15L74.2215 1476.45C98.6283 1476.06 136.139 1471.6 157.576 1466.53C211.024 1453.89 226.303 1453.63 230.648 1465.27ZM382.58 1510.86C391.347 1513.28 398.497 1520.6 398.462 1527.14C398.37 1542.94 361.462 1608.32 342.987 1625.4C328.537 1638.76 328.268 1638.66 323.923 1618.12C321.493 1606.66 313.747 1576.81 306.696 1551.77L293.883 1506.27L330.259 1506.37C350.265 1506.42 373.814 1508.45 382.58 1510.86ZM257.343 1540.53C261.354 1551.37 270.624 1582.43 277.937 1609.55L291.246 1658.87L261.794 1667.02C245.324 1671.58 216.977 1673.07 197.474 1670.41C160.722 1665.4 107.969 1641.73 107.969 1630.24C107.969 1617.18 177.525 1552.14 208.154 1536.57C247.252 1516.69 248.563 1516.79 257.343 1540.53Z"
+                  fill="#E3236F"
+                />
+              </svg>
+
+              <!-- circle 4 -->
+              <svg
+                class="about-left-circle-4"
+                width="3231"
+                height="2958"
+                viewBox="0 0 3231 2958"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="1479"
+                  cy="1479"
+                  r="1474"
+                  stroke="#2538E0"
+                  stroke-width="10"
+                />
+                <ellipse cx="2958" cy="1479" rx="246" ry="241" fill="white" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2846.43 1237.34C2719.12 1295.04 2655.72 1439.49 2700.97 1568.75C2723.03 1631.78 2794.78 1703.62 2859.38 1727.35C2926.24 1751.93 3021.34 1748.46 3079.72 1719.33C3245.88 1636.43 3282.05 1419.89 3151.06 1292.37C3072.21 1215.64 2945.02 1192.65 2846.43 1237.34ZM2915.29 1360.26C2960.94 1375.76 2976.68 1418.89 2947.96 1449.79C2934.6 1464.16 2934.97 1467 2952.42 1483.98L2971.46 1502.51L2977.21 1480.21C2980.37 1467.94 2995.26 1447.82 3010.29 1435.51C3058.32 1396.17 3121.24 1410.21 3151.42 1467.02C3177.03 1515.25 3171.92 1520.72 3101.24 1520.72C3066.07 1520.72 3035.08 1524.21 3032.37 1528.48C3029.66 1532.76 3035.95 1543.75 3046.35 1552.91C3064.39 1568.8 3066.54 1568.86 3092.94 1554.11C3122.39 1537.65 3155.97 1533.55 3155.97 1546.4C3155.97 1563.7 3117.99 1599.53 3095.15 1603.78C3055.91 1611.09 3009.26 1593.97 2991.67 1565.81L2975.71 1540.28L2960.71 1565.73C2943.23 1595.37 2898.74 1610.25 2827.41 1610.33C2747.85 1610.42 2750.66 1615.16 2750.66 1480.91C2750.66 1415.68 2753.42 1359.62 2756.8 1356.34C2766.78 1346.62 2883.61 1349.51 2915.29 1360.26ZM3126.62 1383.98C3124.2 1396.35 3112.38 1400.23 3070.67 1402.36C3022.61 1404.81 3017.79 1403.37 3017.79 1386.67C3017.79 1370.15 3023.48 1368.29 3073.73 1368.29C3122.05 1368.29 3129.26 1370.43 3126.62 1383.98ZM2815.14 1426.06C2815.14 1447.31 2818.22 1448.99 2857.23 1448.99C2895.61 1448.99 2899.06 1447.21 2896.38 1428.81C2893.93 1412.04 2886.83 1408.17 2854.29 1405.88C2817.7 1403.3 2815.14 1404.62 2815.14 1426.06ZM3042.78 1463.52C3028.51 1477.41 3037.74 1484.85 3069.22 1484.85C3091.5 1484.85 3101 1481.21 3098.45 1473.64C3094.22 1461.11 3052.96 1453.6 3042.78 1463.52ZM2815.14 1525.69V1557.57L2858.89 1554.83C2897.04 1552.45 2903.04 1549.35 2905.75 1530.7C2909.61 1504.16 2894.3 1494.13 2849.68 1493.95C2816.22 1493.82 2815.14 1494.81 2815.14 1525.69Z"
+                  fill="#1769FF"
+                />
+              </svg>
+            </div>
+            <div class="col-12 col-md-6 about-right">
+              <h4 class="section-hd">About Us</h4>
+              <h1 class="w-75">Digital Agency</h1>
+              <h1 class="w-75">Providing Various</h1>
+              <h1 class="w-75 mb-4">Various Services</h1>
+              <p class="w-75 mb-4">
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet, reiciendis?</span
+                >
+              </p>
+
+              <div>
+                <button class="btn btn-lg rounded-pill gold-bg">
+                  Learn More
+                </button>
+              </div>
+
+              <!-- Double Circle -->
+              <svg
+                class="about-right-circle"
+                width="572"
+                height="572"
+                viewBox="0 0 572 572"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M572 286C572 443.953 443.953 572 286 572C128.047 572 0 443.953 0 286C0 128.047 128.047 0 286 0C443.953 0 572 128.047 572 286ZM143.164 286C143.164 364.886 207.114 428.836 286 428.836C364.886 428.836 428.836 364.886 428.836 286C428.836 207.114 364.886 143.164 286 143.164C207.114 143.164 143.164 207.114 143.164 286Z"
+                  fill="#f4f5fb"
+                  fill-opacity="0.39"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M286.5 521C416.563 521 522 415.563 522 285.5C522 155.437 416.563 50 286.5 50C156.437 50 51 155.437 51 285.5C51 415.563 156.437 521 286.5 521ZM286 403C350.617 403 403 350.617 403 286C403 221.383 350.617 169 286 169C221.383 169 169 221.383 169 286C169 350.617 221.383 403 286 403Z"
+                  fill="#f4f5fb"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section -->
+
+    <section class="service-container center" id="service">
+      <!-- Shape 2 -->
+      <div class="custom-shape-divider-top-1650776423">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="service-wrapper">
+        <div class="container center h-100 w-100">
+          <div class="row w-100 h-100">
+            <div
+              class="col-12 col-md-6 d-flex flex-column justify-content-center"
+            >
+              <h4 class="sectiom-hd">Our Services</h4>
+              <h1 class="w-75">We Can Take</h1>
+              <h1 class="w-75">Your Business To</h1>
+              <h1 class="w-75 mb-4">The next level</h1>
+              <p class="w-75 mb-4">
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet, reiciendis?</span
+                >
+              </p>
+
+              <div>
+                <button class="btn btn-lg rounded-pill gold-bg">
+                  Learn More
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 center">
+              <div class="service-box-container">
+                <div class="service-box-col-1">
+                  <div class="box box-1">
+                    <h1>
+                      <!-- <i class="fa-solid fa-display-code"></i> -->
+                      <i class="fa-solid fa-display"></i>
+                    </h1>
+                    <h5>Ul/Ux Design</h5>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Recusandae, expedita!
+                    </p>
+                  </div>
+                  <div class="box box-1">
+                    <h1>
+                      <!-- <i class="fa-solid fa-display-code"></i> -->
+                      <i class="fa-solid fa-gamepad"></i>
+                    </h1>
+                    <h5>Games</h5>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Recusandae, expedita!
+                    </p>
+                  </div>
+                </div>
+                <div class="service-box-col-2">
+                  <div class="box box-1">
+                    <h1>
+                      <!-- <i class="fa-solid fa-display-code"></i> -->
+                      <i class="fa-solid fa-camera-retro"></i>
+                    </h1>
+                    <h5>Branding</h5>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Recusandae, expedita!
+                    </p>
+                  </div>
+                  <div class="box box-1">
+                    <h1>
+                      <!-- <i class="fa-solid fa-display-code"></i> -->
+                      <i class="fa-solid fa-bullhorn"></i>
+                    </h1>
+                    <h5>Marketing</h5>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Recusandae, expedita!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Support Section -->
+
+    <section class="support-container center" id="support">
+      <div class="support-wrapper">
+        <div class="container center h-100 w-100">
+          <div class="row w-100 h-100 support-row">
+            <!-- <div class="col-12 col-md-6 center">Support Image</div> -->
+
+            <div class="person-image-container">
+              <div class="review-person-img-container review-person-1">
+                <img
+                  src="./assets/person.jpg"
+                  alt=""
+                  srcset=""
+                  class="review-person-img person-image-1"
+                />
+              </div>
+              <div class="review-person-img-container review-person-2">
+                <img
+                  src="./assets/person.jpg"
+                  alt=""
+                  srcset=""
+                  class="review-person-img person-image-2"
+                />
+              </div>
+              <div class="review-person-img-container review-person-3">
+                <img
+                  src="./assets/person.jpg"
+                  alt=""
+                  srcset=""
+                  class="review-person-img person-image-3"
+                />
+              </div>
+              <div class="review-person-img-container review-person-4">
+                <img
+                  src="./assets/person.jpg"
+                  alt=""
+                  srcset=""
+                  class="review-person-img person-image-4"
+                />
+              </div>
+              <div class="review-person-img-container review-person-5">
+                <img
+                  src="./assets/person.jpg"
+                  alt=""
+                  srcset=""
+                  class="review-person-img person-image-5"
+                />
+              </div>
+              <div class="review-person-img-container review-person-6">
+                <img
+                  src="./assets/person.jpg"
+                  alt=""
+                  srcset=""
+                  class="review-person-img person-image-6"
+                />
+              </div>
+            </div>
+            <div class="col-12 center">
+              <div class="testimonials-container">
+                <h3>TESTIMONIALS</h3>
+                <h1 class="mb-5">What people say</h1>
+                <div class="card testimonials-card-container">
+                  <div class="card-body center flex-column">
+                    <p class="mb5">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni natus voluptas exercitationem, ullam perspiciatis
+                      fuga quasi corrupti.
+                    </p>
+                    <h5 class="" style="color: #564ab1">
+                      <small>Nahean Fardous</small>
+                    </h5>
+                    <div class="review center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="review-nav center">
+                      <div class="review-prev">
+                        <!-- <i class="fa-thin fa-arrow-left"></i> -->
+                        <!-- <i class="fa-duotone fa-arrow-right"></i> -->
+                        <i class="fa-solid fa-left-long"></i>
+                      </div>
+                      <div class="review-next">
+                        <i class="fa-solid fa-right-long"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- support-circle-1 -->
+
+      <svg
+        class="support-circle-1"
+        width="2213"
+        height="2213"
+        viewBox="0 0 2213 2213"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="about-left-circle-2"
+      >
+        <path
+          d="M2213 1106.5C2213 1717.6 1717.6 2213 1106.5 2213C495.397 2213 0 1717.6 0 1106.5C0 495.397 495.397 0 1106.5 0C1717.6 0 2213 495.397 2213 1106.5ZM720.894 1106.5C720.894 1319.46 893.535 1492.11 1106.5 1492.11C1319.46 1492.11 1492.11 1319.46 1492.11 1106.5C1492.11 893.535 1319.46 720.894 1106.5 720.894C893.535 720.894 720.894 893.535 720.894 1106.5Z"
+          fill="#ffc727"
+        />
+      </svg>
+      <!-- Shape 1 -->
+      <div class="custom-shape-divider-bottom-1650776198">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- Contact Section -->
+
+    <section class="contact-container center" id="contact">
+      <div class="contact-wrapper">
+        <div class="container center h-100 w-100">
+          <div class="row w-100 h-100">
+            <div
+              class="col-12 col-md-6 d-flex flex-column justify-content-center"
+            >
+              <h4 class="section-hd">Contuct Us</h4>
+              <h1 class="w-75">Dont Hesitate to</h1>
+              <h1 class="w-75">Contuct us for</h1>
+              <h1 class="w-75 mb-4">any Information</h1>
+              <p class="w-75 mb-4">
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet, reiciendis?</span
+                >
+              </p>
+
+              <div>
+                <button class="btn btn-lg gold-bg rounded-pill">
+                  Learn More
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 center d-flex flex-column justify-content-center"
+            >
+              <form action="" class="contact-form">
+                <div
+                  class="d-flex flex-column justify-content-center w-100"
+                ></div>
+                <div class="form-floating w-100 mb-4">
+                  <input type="text" placeholder="In" class="form-control" />
+                  <label for="">Enter Name</label>
+                </div>
+                <div class="form-floating w-100 mb-4">
+                  <input type="email" placeholder="In" class="form-control" />
+                  <label for="">Enter Email</label>
+                </div>
+                <div class="form-floatin w-100 mb-5">
+                  <textarea
+                    class="form-control w-100"
+                    type="text"
+                    placeholder="Enter Message"
+                    rows="5"
+                  ></textarea>
+                  <!-- <label for="">Enter Text</label> -->
+                </div>
+                <div>
+                  <button class="btn btn-lg gold-bg rounded-pill">
+                    Submit
+                  </button>
+                </div>
+
+                <!-- Contact circle -->
+                <svg
+                  class="contact-circle-1"
+                  width="2213"
+                  height="2213"
+                  viewBox="0 0 2213 2213"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="about-left-circle-2"
+                >
+                  <path
+                    d="M2213 1106.5C2213 1717.6 1717.6 2213 1106.5 2213C495.397 2213 0 1717.6 0 1106.5C0 495.397 495.397 0 1106.5 0C1717.6 0 2213 495.397 2213 1106.5ZM720.894 1106.5C720.894 1319.46 893.535 1492.11 1106.5 1492.11C1319.46 1492.11 1492.11 1319.46 1492.11 1106.5C1492.11 893.535 1319.46 720.894 1106.5 720.894C893.535 720.894 720.894 893.535 720.894 1106.5Z"
+                    fill="#ffc727"
+                  />
+                </svg>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-wrapper container">
+        <div class="footer-main">
+          <div class="footer-logo"><h1>agency</h1></div>
+          <div class="footer-nav">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Suppport</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social-links">
+            <ul class="nav justify-content-center|justify-content-end">
+              <li class="nav-item footer-link-icons">
+                <a class="nav-link" href="https://www.facebook.com/AlNahean19/">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item footer-link-icons">
+                <a class="nav-link" href="https://twitter.com/nahean19"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="nav-item footer-link-icons">
+                <a class="nav-link" href="#">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li class="nav-item footer-link-icons">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">Copyright @Nahean 2022</div>
+      </div>
+      <div class="custom-shape-divider-top-1650776423">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </footer>
+
+    <!-- <nav class="nav justify-content-center fixed-top">
+        <a class="nav-link text-dark" href="#div1">Div 1</a>
+        <a class="nav-link text-dark" href="#div2">Div 2</a>
+        <a class="nav-link text-dark" href="#div3">Div 3</a>
+    </nav>
+    <div>
+        <div>
+            <div id="div1" class="bg-primary" style="height:100vh">div1</div>
+            <div id="div2" class="bg-success" style="height:100vh">div2</div>
+            <div id="div3" class="bg-light navbar-light" style="height:100vh">div3</div>
+        </div>
+    </div> -->
+    <!-- <div class="bg-light navbar-light"></div> -->
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+      integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
